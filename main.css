@@ -1,0 +1,67 @@
+body{
+    font-weight: 700;
+    font-family: 'Amatic SC', cursive;
+}
+
+.container {
+    width: 100vw;
+    display: flex;
+    height: 100vh;
+    padding: 100px;
+    color: black;
+    font-size: 20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #98dfce;
+}
+
+.offer {
+    gap: 1px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    color: wheat;
+    font-size: 20px;
+    font-weight: 700;
+    transition: 0.3s;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: darkblue;
+}
+
+button:hover{
+    background-color: rgb(4, 4, 87);
+}
+
+p:first-child {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+p {
+    margin-bottom: 40px;
+}
+
+.stop {
+    display: none;
+}
+
+.stop.active {
+    display: block;
+}
+
+.prediction {
+    display: none;
+    font-size: xx-large;
+}
+
+.prediction.active {
+    display: block;
+}
+
+.none {
+    display: none;
+}
